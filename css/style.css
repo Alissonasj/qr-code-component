@@ -1,0 +1,72 @@
+@import url('reset.css');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    --paragraph: 15px;
+    --font-regular: 400;
+    --font-bold: 700;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: var(--font-regular);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--light-gray);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.card__container {
+    background-color: var(--white);
+    max-width: 375px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 30px var(--grayish-blue);
+}
+
+.card {
+    padding: 15px;
+}
+
+.card img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card div {
+    text-align: center;
+    padding: 30px;
+}
+
+.card h2 {
+    font-weight: var(--font-bold);
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: var(--paragraph);
+}
+
+footer {
+    padding: 10px 0;
+    font-size: 11px;
+    text-align: center;
+    background-color: var(--white);
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
