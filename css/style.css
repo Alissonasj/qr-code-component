@@ -70,3 +70,9 @@ footer {
 footer a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 375px) {
+    .card__container {
+        max-width: 350px;
+    }
+}
