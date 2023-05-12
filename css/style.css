@@ -33,6 +33,7 @@ main {
 .card__container {
     background-color: var(--white);
     max-width: 375px;
+    margin: 0 1rem;
     border-radius: 15px;
     box-shadow: 2px 2px 30px var(--grayish-blue);
 }
@@ -69,10 +70,4 @@ footer {
 
 footer a {
     color: hsl(228, 45%, 44%);
-}
-
-@media (max-width: 375px) {
-    .card__container {
-        max-width: 350px;
-    }
 }
