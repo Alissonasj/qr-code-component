@@ -1,5 +1,6 @@
+# [QR code component site](https://alissonasj.github.io/qr-code-component/)
+
 # Frontend Mentor - QR code component
-# [Link of my page](https://alissonasj.github.io/qr-code-component/)
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
